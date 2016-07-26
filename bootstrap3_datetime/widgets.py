@@ -1,9 +1,13 @@
 # -*- coding: utf-8 -*-
-from django.forms.utils import flatatt
 from django.forms.widgets import DateTimeInput
 from django.utils import translation
 from django.utils.safestring import mark_safe
 from django.utils.html import conditional_escape
+
+try:
+    from django.forms.utils import flatatt
+except ImportError:
+    from django.forms.util import flatatt   # Django <1.9
 
 try:
     import json
