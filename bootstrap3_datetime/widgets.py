@@ -35,6 +35,7 @@ class DateTimePicker(DateTimeInput):
                         'en-ca': 'en-ca',
                         'en-gb': 'en-gb',
                         'en-us': 'en-us',
+                        'es': 'es',
                         'fa-ir': 'fa-ir',
                         'fr-ca': 'fr-ca',
                         'ms-my': 'ms-my',
