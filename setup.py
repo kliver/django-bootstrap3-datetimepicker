@@ -2,7 +2,7 @@ from setuptools import setup
 
 
 setup(
-    name='bootstrap3_datetime',
+    name='django-bootstrap3-datetimepicker',
     packages=['bootstrap3_datetime',],
     package_data={'bootstrap3_datetime': ['static/bootstrap3_datetime/css/*.css', 
                                           'static/bootstrap3_datetime/js/*.js',
